@@ -1,0 +1,133 @@
+body {
+	background-color: antiquewhite;
+	/*trevlig off-white färg, mjuk mot ögonen.*/
+	font-family: "Garamond";
+	/*Garamond och Helvetica Neue ska enligt https://www.creativebloq.com/typography/20-perfect-type-pairings-3132120 matcha bra.*/
+	font-size: 18px;
+	/*Aningen större text, lättare för ögonen*/
+	max-width: 1400px;
+	/*begränsar bredden på allt i body så inte sidan drar iväg*/
+	display: flex;
+	flex-wrap: wrap;
+}
+header {
+/*menytexten*/
+	width:100%;
+	text-align: center;
+	background-image: url('sabre_small.png');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.menu {
+   align-content:center; 
+}
+.topnav {
+/*utformingen av navigeringsfältet*/
+  align-content: center;
+  width: 100%;
+  background-color: #CFECEC;
+  padding-top: 10px;
+  padding-bottom:20px;
+}
+.topnav a {
+/*utformning av länkar i navigationsfältet*/
+  float: center;
+  color: #36454F;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  width:auto;
+}
+.topnav a:hover {
+/*hovrar bakgrundsfärg*/
+  background-color: #FFFFE0;
+  color: darkred;
+}
+.topnav a.active {
+/*ej riktigt relevant inom en sida men tar med*/
+  background-color: #04AA6D;
+  color: white;
+}
+.main {
+/*main innehållet*/
+  margin-top: 20px;
+}
+h1 {
+	font-family: "Helvetiva Neue", sans-serif;
+	color:#36454F;
+	/*mjuk gråblå färg*/
+	font-size: 45px;
+	text-align: center;
+}
+h2 {
+	font-family: "Helvetiva Neue", sans-serif;
+	color:#3F000F;
+	/*mjuk gråblå färg*/
+	font-size: 25px;
+	  text-align: left;
+}
+
+
+img {
+	border: 8px solid #36454F;
+	border-radius:25%;
+	margin-bottom: 30px;
+	
+}
+footer {
+background-color: #CFECEC;
+font-size: 12px;
+text-align: center;
+}
+/*Alla flexcontainers här nere påverkar 6 olika innehåller containrar*/
+.Flex-container1{
+display:flex;
+justify-content: space-between;
+align-items: bottom;
+margin-left:2px;
+outline: solid 7px #36454F ;
+padding-left: 8px;
+text-align:justify-all;
+}
+.Flex-container2{
+display:flex;
+justify-content: space-between;
+align-items: bottom;
+margin-left:2px;
+
+padding-left: 8px;
+text-align:justify-all;
+
+}
+.Flex-container3 {
+display:flex;
+justify-content: space-between;
+align-items: bottom;
+margin-left:2px;
+outline: solid 7px #36454F ;
+padding-left: 8px;
+}
+.Flex-container4 {
+display:flex;
+justify-content: space-between;
+align-items: top;
+margin-left:2px;
+padding-left: 8px;
+}
+.Flex-container5 {
+display:flex;
+justify-content: space-between;
+align-items: top;
+margin-left:2px;
+outline: solid 7px #36454F ;
+padding-left: 8px;
+}
+.Flex-container6 {
+display:flex;
+justify-content: space-between;
+align-items: top;
+margin-left:2px;
+
+padding-left: 8px;
+}
